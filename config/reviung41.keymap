@@ -49,8 +49,8 @@
 //                       |     | ADJ | BKSP |    |     |
                         bindings = <
    &kp TILDE  &kp EXCL &kp AT     &kp HASH  &kp DLLR  &kp PRCNT     &kp CARET &kp AMPS  &kp ASTR  &kp LPAR  &kp RPAR  &kp DEL
-   &none     &kp UNDER &kp PLUS   &kp LBKT  &kp RBKT  &kp PIPE      &kp HOME  &kp PGUP  &kp VOLU  &kb BRIU  &none     &none
-   &kp CAPS  &none    &none       &none     &none     &none         &kp END   &kp PGDN  &kp VOLD  &kp BRID  &kp MUTE  &trans
+   &none     &kp UNDER &kp PLUS   &kp LBKT  &kp RBKT  &kp PIPE      &kp HOME  &kp PG_UP  &kp K_VOL_UP  &kb C_BRI_UP  &none     &none
+   &kp CAPS  &none    &none       &none     &none     &none         &kp END   &kp PG_DN  &kp K_VOL_DN  &kp C_BRI_DN  &kp K_MUTE  &trans
                                 &trans      &mo 3       &kp SPACE        &trans      &trans
                         >;
                 };
