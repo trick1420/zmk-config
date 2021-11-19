@@ -10,6 +10,9 @@
 #include <dt-bindings/zmk/rgb.h>
 
 #define SS_CLIPB LS(LC(LG(N4)))
+#define SS_CLIPB LS(LG(N4)))
+#define CMD_GRV LG(GRAVE)
+#define CHG_TAB LC(TAB)
 
 / {
         keymap {
@@ -38,7 +41,7 @@
                         bindings = <
    &kp GRAVE &kp N1    &kp N2    &kp N3   &kp N4    &kp N5         &kp N6  &kp N7  &kp N8  &kp N9   &kp N0   &kp DEL
    &none     &kp MINUS &kp EQUAL &kp LBRC &kp RBRC  &kp BSLH       &none   &none   &none   &none    &kp UP   &none
-   &trans    &none     &none     &none    &none     &none          &none   &none   &none   &kp LEFT &kp DOWN &kp RIGHT
+   &trans    &none     &none     &none    &none     &none          &kp CMD_GRV   &kp CHG_TAB   &none   &kp LEFT &kp DOWN &kp RIGHT
                                  &trans      &trans    &kp SPACE        &mo 3    &trans
                         >;
                 };
