@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 #define SS_CLIPB LS(LC(LG(N4)))
-#define SS_FILE LS(LG(N4)))
+#define SS_FILE LS(LG(N4))
 #define CMD_GRV LG(GRAVE)
 #define CHG_TAB LC(TAB)
 
@@ -67,10 +67,10 @@
 // |          |          |          |          |    |         |   | RESET |     |     |     |     |        |
 //                                              |     |     |     |     |     |
                         bindings = <
-   &kp F1          &kp F2          &kp F3          &kp F4          &kp F5 &kp F6                &kp F7       &kp F8       &kp F9       &kp F10      &kp F11      &kp F12 
-   &rgb_ug RGB_BRI &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &none  &rgb_ug RGB_TOG       &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
-   &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &kp SS_CLIPB  &none                 &none     &kp SS_FILE     &none        &none        &none        &none
-                                                             &trans      &trans       &kp SPACE        &trans      &trans
+   &kp F1          &kp F2          &kp F3          &kp F4          &kp F5        &kp F6            &kp F7       &kp F8       &kp F9       &kp F10      &kp F11      &kp F12 
+   &rgb_ug RGB_BRI &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &none         &rgb_ug RGB_TOG   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
+   &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &kp SS_CLIPB  &none             &none        &kp SS_FILE  &none        &none        &none        &none
+                                                             &trans      &trans       &kp SPACE    &trans      &trans
                         >;
                 };
         };
